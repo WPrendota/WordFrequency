@@ -4,7 +4,9 @@ import re
 
 #-------------------------------------------------------------
 
-text = open(r"C:\Users\Witek\Desktop\pan-tadeusz.txt", encoding="utf8").read()
+file_name = r"C:\Users\Witek\Desktop\pan-tadeusz.txt"
+
+text = open(file_name, encoding="utf8").read()
 words = text.replace("\n", " ")
 words = re.sub('[^A-Za-z0-9ąćęłńóśźż]+', ' ', words)
 words = words.split(' ')
