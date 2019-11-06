@@ -1,4 +1,4 @@
-# **The WordFrequency**
+# **The Word Frequency**
 
 ## Technologies:
 ### - [Python](https://www.python.org),
