@@ -11,7 +11,7 @@ The first implementation (slower version).
 --- 
 
 ## Deployment
-Download the **WordFrequency.py** file and run it.
+Download the **word_frequency.py** file and run it.
 
 ---
 
